@@ -14,7 +14,6 @@ from flask import Flask, jsonify, render_template_string, request
 
 app = Flask(__name__)
 
-
 class AppConfig:
     def __init__(self, message: str, environment: str, port: int):
         self.message = message
